@@ -1,3 +1,3 @@
 # GraphCySoM
 
-All files will be updated in 2024.9.9
+All Files Will Be Updated on September 9, 2024
