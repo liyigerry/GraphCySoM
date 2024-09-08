@@ -1,7 +1,16 @@
-merged.sdf包含680个分子结构。
-ML，由不同特征的特征构成的三种数据集进行的机器学习实验。
-atom_topo_base由原子类型、原子特征以及原子拓扑结构构成的数据处理方式。
-train.ipynb训练保存的模型存储在model文件夹下。
-explainer.py 可解释性分析，使用GNNExplainer方法对模型进行分析，从而获取对预测起到关键作用的邻居节点。
-rdkit_cluster.ipynb对原始分子进行聚类手肘图的分析。
-rdkit_cluster1.ipynb对重要的二阶邻居节点所构成的子图进行聚类手肘图分析以及聚类，并提炼出经典的相似结构以用于后续研究。
+# Improved and Interpretable Prediction of Cytochrome P450-Mediated Metabolism by Molecule-level Graph Modeling
+
+## Data
+
+The original data comes from Zaretzki's dataset and is stored in the merged.sdf file.
+
+## Feature
+The processing of atom-types, atom-based, and topol-based features is handled in the atom_topo_feature.py file.
+
+## Models
+Machine learning experiments ML were conducted on three datasets composed of features from different characteristics.
+The trained model is saved in the model folder via train.ipynb.
+
+## Interpretability
+The explanatory files are located in the explain folder, including the interpretability analysis in explainer.py, rdkit_cluster.ipynb for clustering analysis of the original molecules, and rdkit_cluster1.ipynb for clustering analysis of subgraphs composed of important second-order neighbor nodes.
+
