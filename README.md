@@ -1,3 +1,7 @@
-# GraphCySoM
-
-All Files Will Be Updated on September 9, 2024
+merged.sdf包含680个分子结构。
+ML，由不同特征的特征构成的三种数据集进行的机器学习实验。
+atom_topo_base由原子类型、原子特征以及原子拓扑结构构成的数据处理方式。
+train.ipynb训练保存的模型存储在model文件夹下。
+explainer.py 可解释性分析，使用GNNExplainer方法对模型进行分析，从而获取对预测起到关键作用的邻居节点。
+rdkit_cluster.ipynb对原始分子进行聚类手肘图的分析。
+rdkit_cluster1.ipynb对重要的二阶邻居节点所构成的子图进行聚类手肘图分析以及聚类，并提炼出经典的相似结构以用于后续研究。
